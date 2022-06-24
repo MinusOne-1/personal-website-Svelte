@@ -1,9 +1,9 @@
 <footer>
   <p class="textINeedToBeCenter">You can contact me there: LAnnaIg03@yandex.ru or</p>
   <a class="textINeedToBeCenter" href="https://github.com/MinusOne-1"><img class="textINeedToBeCenter"
-                                                                           src="IMG/GitHub32logo.png"></a>
+                                                                           src="IMG/GitHub32logo.png" alt="GitHub"></a>
   <a class="textINeedToBeCenter" href="https://t.me/MinusOneLAI"><img class="textINeedToBeCenter"
-                                                                      src="IMG/Telegramlogo.png"></a>
+                                                                      src="IMG/Telegramlogo.png" alt="Telegram"></a>
 </footer>
 
 <style>

@@ -48,6 +48,7 @@
       </select>
       <select class="api-setting" bind:value={country}>
         {#await availiableCountry}
+          <option>RU</option>
         {:then objects}
           {#each objects as country_var}
             <option>{country_var.name}({country_var.countryCode})</option>

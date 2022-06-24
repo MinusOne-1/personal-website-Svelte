@@ -15,7 +15,7 @@
         The first button leads to this page, and the second button leads to the page where the API is used.</p>
     </div>
   </div>
-  <img id="image" src="IMG/photo_2022-06-02_00-30-29.png">
+  <img id="image" src="IMG/photo_2022-06-02_00-30-29.png" alt="My photo should be here, but...">
 </div>
 
 <style>
@@ -95,7 +95,7 @@
         font-size: 1.4rem;
     }
 
-    ul #langs {
+    ul#langs {
         position: relative;
         top: 30%;
     }
