@@ -1,9 +1,18 @@
 <script lang="ts">
-import PersonalPage from "./personalPage/PersonalPage.svelte"
+  import Router from "svelte-spa-router"
+  import PersonalPage from "./personalPage/PersonalPage.svelte"
+  import APIUser from "./routes/APIUser.svelte"
+
+
+  let routes = {
+    "/": PersonalPage,
+    "/APIUser": APIUser,
+  }
+
 </script>
 
 <main>
-	<PersonalPage />
+  <Router {routes} />
 </main>
 
 <style>

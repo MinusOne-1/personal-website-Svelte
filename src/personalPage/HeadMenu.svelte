@@ -1,8 +1,8 @@
 <header class="panel">
   <div class="menu">
     <p class="menu">Personal site on svelte</p>
-    <button class="menu" onclick="window.location.href = '/index';">Personal Page</button>
-    <button class="menu" onclick="window.location.href = '/apiUser';">Using Api</button>
+    <button class="menu" onclick="window.location.href = '/';">Personal Page</button>
+    <button class="menu" onclick="window.location.href = '/#/APIUser';">Using Api</button>
   </div>
 </header>
 

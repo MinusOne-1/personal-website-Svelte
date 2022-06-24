@@ -6,9 +6,6 @@
 </script>
 
 
-<template>
-
-  <HeadMenu/>
-  <PersonalInformation/>
-  <FooterWithLinks/>
-</template>
+<HeadMenu />
+<PersonalInformation />
+<FooterWithLinks />
